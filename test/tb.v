@@ -27,8 +27,8 @@ module tb ();
   wire VGND = 1'b0;
 `endif
 
-  // Replace tt_um_example with your module name:
-  tt_um_example user_project (
+  // Instantiate the project module:
+  tt_um_3d2yy_moving_sine_wave user_project (
 
       // Include power ports for the Gate Level test:
 `ifdef GL_TEST
